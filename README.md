@@ -8,8 +8,9 @@ You enter your height and weight. Plus answer your health questions. and click t
 The BMI value and health examination results calculated from the input values will be displayed. A graph is also displayed.
 The program creation procedure is described below the figure.
 
-**<span style="color:#cc0000;font-size:150%;">You can check the below URL.</span>**
-**https://abasami.github.io/uniduna-f-sharp2024_mid-proj/wwwroot/**
+**<span style="color:#cc0000;font-size:150%;">You can check the below URL.</span>** [LINK](https://abasami.github.io/uniduna-f-sharp2024_mid-proj/wwwroot/)  
+**https://abasami.github.io/uniduna-f-sharp2024_mid-proj/wwwroot/**  
+
 
 ![ss01](https://github.com/abasami/uniduna-f-sharp2024_mid-proj/assets/165396658/cbbca3ef-2f7a-4137-92ef-f8f105c671fb)
 
@@ -26,4 +27,6 @@ The program creation procedure is described below the figure.
 \(Folder Name)>dotnet new websharper-spa -lang F# -n (ProjectName)
 ```
 2 Change the code and add the graph from TryWebSharper
-https://try.websharper.com/snippet/adam.granicz/00004G
+
+[TryWebSharper](https://try.websharper.com/snippet/adam.granicz/00004G)
+
