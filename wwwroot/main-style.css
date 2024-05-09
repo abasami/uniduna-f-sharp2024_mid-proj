@@ -1,0 +1,144 @@
+.wrap {
+    background-color: antiquewhite;
+    width: 1200px;
+    height: 1600px;
+    margin: 10px;
+    font-size: 120%;
+    font-family: system-ui;
+
+}
+
+
+nav {
+    /* 中の項目を横に並べるのでflex */
+    display: flex;
+    /* 背景色 */
+    background: #eeeeee;
+    /* 高さ */
+    height: 60px;
+}
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        list-style: none;
+        font-weight: bold;
+        color: crimson;
+        font-size: 120%;
+        border-right: solid 1px #333333;
+        padding: 0em 2em;
+    }
+        nav li a {
+            list-style: none;
+            text-decoration: none; /* リンクの下線を消す */
+            color: crimson; /* リンクの文字色を白にする */
+        }
+
+            nav li a:visited {
+                color: crimson; /* クリック後のリンクの文字色を白にする */
+            }
+
+            nav li a:active {
+                color: crimson; /* クリック中のリンクの文字色を白にする */
+            }
+            nav li a:hover {
+                color:darksalmon; /* クリック中のリンクの文字色を白にする */
+            }
+
+h1{
+    color:crimson;
+    border-left:solid 10px crimson;
+    padding-left:10px;
+}
+h2 {
+    font-size:150%;font-weight:bold;
+}
+input{
+    height:30px;
+    font-size:110%;
+}
+button{
+    height:35px;
+    font-size:110%;
+    padding:2px 10px;
+    background-color:crimson;
+    color:#ffffff;
+}
+table{
+    margin-top:5px;
+
+}
+td,th{
+    border: solid 1px #666666;
+
+}
+
+
+
+.people-info{
+    padding:10px;
+    margin-left:20px;
+}
+.people-result {
+    padding: 10px;
+    margin-left: 20px;
+    margin-top:100px;
+}
+    div.people-result table th {
+        border: solid 1px #666666;
+        background-color:darksalmon;
+        width:200px;
+        margin-bottom:0px;
+        font-weight:bold;
+    }
+    
+    div.people-result table td {
+        border: solid 1px #666666;
+        width:200px;
+    }
+
+    div.people-result ol {
+        font-size:120%;
+        line-height:1.2em;
+        color:crimson;
+    }
+    
+.note {
+    /*background-color:darksalmon;*/
+    font-size: 120%;
+    padding: 20px;
+    margin: 10px;
+    width: 1000px;
+    /*border:solid 1px #666666;*/
+}
+.btn-lng{
+    width:820px;
+    height:70px;
+    margin:30px 5px;
+}
+.eval{
+    display:inline-block;
+    width:600px;
+    background-color:goldenrod;
+    color:crimson;
+    padding:10px;
+    text-align:left;
+    margin-left:10px;
+    font-size: 150%;
+}
+.menu-button {
+    float: right;
+    background-color: steelblue;
+}
+.btn-clear{
+    background-color:steelblue;
+}
+
+#Chart, #Chart1 {
+    border:1px solid #333333;
+    background-color:#ffffff;
+    font-size: 120%;
+    font-family: system-ui;
+    padding:100px 20px;
+}

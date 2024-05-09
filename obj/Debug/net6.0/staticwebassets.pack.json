@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\Content\\MidPrjFuji.css",
+      "PackagePath": "staticwebassets\\Content\\MidPrjFuji.css"
+    },
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\Content\\MidPrjFuji.head.html",
+      "PackagePath": "staticwebassets\\Content\\MidPrjFuji.head.html"
+    },
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\Content\\MidPrjFuji.head.js",
+      "PackagePath": "staticwebassets\\Content\\MidPrjFuji.head.js"
+    },
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\Content\\MidPrjFuji.js",
+      "PackagePath": "staticwebassets\\Content\\MidPrjFuji.js"
+    },
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\Content\\MidPrjFuji.min.js",
+      "PackagePath": "staticwebassets\\Content\\MidPrjFuji.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\css-bkk.txt",
+      "PackagePath": "staticwebassets\\css-bkk.txt"
+    },
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\abasa\\OneDrive - Dunaújvárosi Egyetem\\04_f-sharp\\MidPrjFuji\\wwwroot\\main-style.css",
+      "PackagePath": "staticwebassets\\main-style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MidPrjFuji.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MidPrjFuji.props",
+      "PackagePath": "build\\MidPrjFuji.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MidPrjFuji.props",
+      "PackagePath": "buildMultiTargeting\\MidPrjFuji.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MidPrjFuji.props",
+      "PackagePath": "buildTransitive\\MidPrjFuji.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MidPrjFuji</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main-style.css" />
+    <style>
+        /* Don't show the not-yet-loaded templates */
+        [ws-template], [ws-children-template] { display: none; }
+    </style>
+    <script type="text/javascript" src="Content/MidPrjFuji.head.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <nav>
+            <ul>
+                <li><a href="${Url_Home}">Health Check Sheet</a></li>
+                <li><a href="${Url_Page1}">For Your Health</a></li>
+                <li><a href="https://github.com/intellifactory/DUE-FSharp/blob/master/2024/README.md" target="_blank">F# class information</a></li>
+            </ul>
+        </nav>
+
+        <button ws-onclick="TakeMeHome" class="menu-button">Let't do healthy lfe from now!</button>
+        <div ws-hole="MainContainer"></div>
+
+        <div ws-children-template="HomePage">
+
+            <h1>Member's Health Check Sheet</h1>
+
+
+            <div class="people-info">
+                <p>You answer a two-part questionnaire to assess your health.</p>
+                <h2>[STEP1] Please input your height and weight!</h2>
+                <input ws-var="Name" placeholder="Name" />
+
+                <input ws-var="Height" placeholder="Height(cm)" />
+
+                <input ws-var="Weight" placeholder="Weight(kg)" />
+
+                <h2>[STEP2] Please answer the health check!</h2>
+                <table>
+                    <tr>
+                        <th width="700px">Question</th>
+                        <th>Answer</th>
+                    </tr>
+                    <tr>
+                        <td>Do you eat a lot of vegetables and fruits?</td>
+                        <td>
+                            <button ws-onclick="Increment">YES</button>
+                            <button ws-onclick="Decrement">NO</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Do you exercise every day?</td>
+                        <td>
+                            <button ws-onclick="Increment">YES</button>
+                            <button ws-onclick="Decrement">NO</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Do you abstain from alcohol and tobacco?</td>
+                        <td>
+                            <button ws-onclick="Increment">YES</button>
+                            <button ws-onclick="Decrement">NO</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Do you sleep more than 7 hours a day?</td>
+                        <td>
+                            <button ws-onclick="Increment">YES</button>
+                            <button ws-onclick="Decrement">NO</button>
+                        </td>
+                    </tr>
+                </table>
+                <p style="font-weight:bold;">YOUR HEALTH POINT: ${Value} &nbsp;&nbsp;<button ws-onclick="Clear" class="btn-clear">CHECK AGAIN (clear data)</button></p>
+
+                <button ws-onclick="Add" class="btn-lng">CHECK YOUR HEALTH!</button>
+
+
+                <h2>YOUR RESULT:  <span class="eval">${Eval}</span></h2>
+                <div>Check Date: ${CheckDate}</div>
+                <!-- 新たに追加された人の情報を表示する領域 -->
+                <div class="note">${Result}</div>
+                <p><a href="#/page1">This page has all the information you need to know for your health.</a></p>
+                <h2>OTHER PEOPLE RESULT: </h2>
+
+            </div>
+
+
+            <div class="people-result">
+
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Height</th>
+                        <th>Weight</th>
+                        <th>BMI</th>
+                    </tr>
+                </table>
+
+                <table ws-hole="ListContainer">
+                    <tr ws-template="ListItem">
+                        <td>${Name}</td>
+                        <td>${Height}</td>
+                        <td>${Weight}</td>
+                        <td>${BMI}</td>
+                    </tr>
+                </table>
+                
+            </div>
+
+        </div>
+        <div style="background-color: antiquewhite; width: 1160px; height: 1000px;padding:20px;">
+            <h2>YOUR HEALTH POINT:</h2>
+            <div id="Chart1"></div>
+            
+            <h2>HEALTH CHART:</h2>
+            <div id="Chart"></div>
+        </div>
+
+        <div ws-children-template="Page1" class="people-result">
+            <h2>To make you healthy</h2>
+            <p class="note">Making healthy choices isn't always easy, however. It can be hard to find the time and energy to exercise regularly or prepare healthy meals. However, your efforts will pay off in many ways, and for the rest of your life.</p>
+            <ol>
+                <li>Be physically active for 30 minutes most days of the week. Break this up into three 10-minute sessions when pressed for time. </li>
+                <li>Eat a well-balanced, low-fat diet with lots of fruits, vegetables and whole grains. </li>
+                <li>Don't smoke, or quit if you do. Ask your health care provider for help. </li>
+                <li>Drink in moderation if you drink alcohol. </li>
+                <li>Ask someone you trust for help if you think you might be addicted to drugs or alcohol.</li>
+            </ol>
+
+        </div>
+
+        <script type="text/javascript" src="Content/MidPrjFuji.min.js"></script>
+    </div>
+
+
+</body>
+</html>
