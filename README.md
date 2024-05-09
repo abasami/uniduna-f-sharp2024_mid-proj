@@ -8,6 +8,12 @@ You enter your height and weight. Plus answer your health questions. and click t
 The BMI value and health examination results calculated from the input values will be displayed. A graph is also displayed.
 The program creation procedure is described below the figure.
 
+### Features
+* Multi-page
+* Button (click to display a message)
+* Calculates BMI using the entered value. Also calculates and displays health check results in combination with the number of check items.
+* Graph
+
 **<span style="color:#cc0000;font-size:150%;">You can check the below URL.</span>** [LINK](https://abasami.github.io/uniduna-f-sharp2024_mid-proj/wwwroot/)  
 **https://abasami.github.io/uniduna-f-sharp2024_mid-proj/wwwroot/**  
 
