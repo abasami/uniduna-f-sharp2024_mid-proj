@@ -1,5 +1,6 @@
 # Mid-term project: Health Check Sheet 
 ## Course: Introduction to functional programming in F\# (University of Dunaújváros, Hungary)
+### EJL8UE FUJIWARA AYA
 
 ### OVERVIEW
 This F# program is a sheet for checking your health.
